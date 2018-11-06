@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Random Number Generator</string>
-    <string name="hello_world_text">Hello</string>
+    <string name="hello_world_text">0</string>
     <string name="greeting_text">Welcome to the app!</string>
 </resources>
