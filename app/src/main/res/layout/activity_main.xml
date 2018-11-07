@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/main_textView"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:duplicateParentState="false"
@@ -38,7 +38,7 @@
         android:onClick="toastMe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/main_textView" />
 
     <Button
         android:id="@+id/count_button"
@@ -56,7 +56,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/random_button"
         app:layout_constraintStart_toEndOf="@+id/toast_button"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/main_textView" />
 
     <Button
         android:id="@+id/random_button"
@@ -68,9 +68,10 @@
         android:layout_marginBottom="8dp"
         android:background="@color/colorButton"
         android:text="Random"
+        android:onClick="randomMe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/main_textView" />
 
 
 

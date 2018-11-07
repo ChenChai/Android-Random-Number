@@ -2,4 +2,5 @@
     <string name="app_name">Random Number Generator</string>
     <string name="hello_world_text">0</string>
     <string name="greeting_text">Welcome to the app!</string>
+    <string name="random_heading">Random number between 0 and %1d</string>
 </resources>
